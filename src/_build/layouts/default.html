@@ -20,43 +20,22 @@
     ></script>
   </head>
   <body>
-    <script>
-      const sel = document.querySelector('#lang-select');
-      sel.addEventListener('change', (ev) => {
-        window.location.href = ev.target.value;
-      });
-    </script>
     <div id="container">
       <div id="header">
         {% if not hideLogo %}
         <img src="/assets/img/logo.png" alt="Game Workers Coalition" />
         {% endif %}
+        <select id="lang-select">
+          <option value="{{ page.url }}">{{ page.lang | i18n }}</option>
+          {% for link in page.url | locale_links %}
+          <option value="{{link.url}}">{{link.label}}</option>
+          {% endfor %}
+        </select>
       </div>
 
       <main id="content">{{ content | safe }}</main>
 
-      <div id="footer">
-        <div id="lang-switcher">
-          <select id="lang-select">
-            <option value="{{ page.url }}">{{ page.lang | i18n }}</option>
-            {% for link in page.url | locale_links %}
-            <option value="{{link.url}}">{{link.label}}</option>
-            {% endfor %}
-          </select>
-        </div>
-      </div>
+      <div id="footer"></div>
     </div>
-
-    <script>
-      if (window.netlifyIdentity) {
-        window.netlifyIdentity.on('init', (user) => {
-          if (!user) {
-            window.netlifyIdentity.on('login', () => {
-              document.location.href = '/admin/';
-            });
-          }
-        });
-      }
-    </script>
   </body>
 </html>

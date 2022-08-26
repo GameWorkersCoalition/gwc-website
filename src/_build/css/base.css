@@ -39,6 +39,7 @@ html {
 }
 
 #header {
+  position: relative;
   background-color: var(--header-bg);
   text-align: center;
 }
@@ -49,6 +50,19 @@ html {
   width: 50%;
 }
 
+#lang-select {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-color: var(--header-bg);
+  border: 1px solid var(--header-bg);
+
+  &:hover,
+  &:focus {
+    border-color: var(--container-link-hover);
+  }
+}
+
 #content {
   flex-grow: 1;
   gap: var(--default-gap);
@@ -57,14 +71,4 @@ html {
 #footer {
   background-color: var(--footer-bg);
   padding: var(--footer-gap);
-}
-
-#lang-switcher select {
-  background-color: var(--footer-bg);
-  border: 1px solid;
-
-  &:hover,
-  &:focus {
-    border-color: var(--footer-link-hover);
-  }
 }

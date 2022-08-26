@@ -42,7 +42,6 @@ a {
 }
 
 #footer {
-  text-align: right;
   color: var(--footer-text);
 
   & a {
@@ -57,12 +56,10 @@ a {
   }
 }
 
-#lang-switcher {
-  select {
-    font-size: 0.9rem;
-    font-weight: 440;
-    color: var(--footer-text);
-  }
+#lang-select {
+  font-size: 0.9rem;
+  font-weight: 440;
+  color: var(--footer-text);
 
   option {
     font-size: 1rem;
