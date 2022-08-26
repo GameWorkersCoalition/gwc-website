@@ -58,11 +58,11 @@ Whether the page is a markdown or html file, it's first processed as _[Nunjucks]
 
 Using this snippet: `{{ <key> | i18n }}` in a page automatically outputs the corresponding string if it's listed in the current language's data file from the `_i18n` folder.
 
-For instance, if you had `data: - { key: 'hi', t: 'Salut' }` in `src/_i18n/i18n.fr.yaml`, then any page from the `src/fr` folder could use `{% i18n hi %}` and it would output 'Salut' in the final website.
+For instance, if you had `data: - { key: 'hi', t: 'Salut' }` in `src/_i18n/localization.fr.yaml`, then any page from the `src/fr` folder could use `{{ hi | i18n }}` and it would output 'Salut' in the final website.
 
 If the translation doesn't exist, English is used as a fallback.
 
-> For details and extra features of the i18n plugin, [https://github.com/adamduncan/eleventy-plugin-i18n](https://www.11ty.dev/docs/).
+> For details and extra features of the i18n plugin, [go here](https://github.com/adamduncan/eleventy-plugin-i18n).
 
 # How to test and build locally:
 
