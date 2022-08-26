@@ -1,0 +1,70 @@
+:root {
+  /* Dimensions */
+  --default-gap: 3rem;
+  --container-width: 700px;
+  --footer-gap: 1.5rem 2rem;
+  /* BG colors */
+  --site-bg: #eee;
+  --header-bg: #101010;
+  --container-bg: #fff;
+  --footer-bg: #e7382d;
+}
+
+html {
+  background-color: var(--site-bg);
+}
+
+/* #container is the rectangle that contains everything but the background */
+
+#container,
+#content {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+#container {
+  align-content: stretch;
+  min-height: calc(100vh - var(--default-gap) * 2);
+  width: 90%;
+  max-width: var(--container-width);
+  margin: var(--default-gap) auto;
+  border-radius: var(--default-gap);
+  background-color: var(--container-bg);
+  overflow: hidden;
+
+  & > * {
+    width: 100%;
+    padding: var(--default-gap);
+  }
+}
+
+#header {
+  background-color: var(--header-bg);
+  text-align: center;
+}
+
+#header img {
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+}
+
+#content {
+  flex-grow: 1;
+  gap: var(--default-gap);
+}
+
+#footer {
+  background-color: var(--footer-bg);
+  padding: var(--footer-gap);
+}
+
+#lang-switcher select {
+  background-color: var(--footer-bg);
+  border: 1px solid;
+
+  &:hover,
+  &:focus {
+    border-color: var(--footer-link-hover);
+  }
+}

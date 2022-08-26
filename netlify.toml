@@ -1,0 +1,20 @@
+[build]
+  publish = "_site"
+  command = "npm run build"
+
+[[redirects]]
+  from = "/*"
+  to = "/de/:splat"
+  status = 302
+  conditions = {Language = ["de"]}
+
+[[redirects]]
+  from = "/*"
+  to = "/fr/:splat"
+  status = 302
+  conditions = {Language = ["fr"]}
+
+[[redirects]]
+  from = "/*"
+  to = "/en/:splat"
+  status = 301

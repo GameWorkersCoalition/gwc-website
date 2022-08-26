@@ -1,0 +1,30 @@
+---
+europe:
+  - name: STJV
+    location: France
+    link: https://www.stjv.fr/
+
+  - name: GWU Deutschland
+    link: https://twitter.com/GWU_Deutschland/
+
+  - name: GWU Italy
+    link: https://twitter.com/GWU_Italy
+
+northam:
+  - name: GWU Toronto
+    location: Ontario, Canada
+    link: https://twitter.com/GWU_Toronto
+
+  - name: GWU Montréal
+    location: Québec, Canada
+    link: https://gwumtl.com/
+  
+southam: []
+
+oceania:
+  - name: Game Workers Australia
+    link: https://www.gameworkers.com.au/
+
+asia: []
+
+africa: []
