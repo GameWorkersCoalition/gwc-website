@@ -13,6 +13,9 @@ northam:
   - name: GWU Montréal
     location: Québec, Canada
     link: https://gwumtl.com/
+  - name: KWS Edmonton United
+    link: https://twitter.com/KWSUnited
+    location: Alberta, Canada
 southam: []
 oceania:
   - name: Game Workers Australia
