@@ -7,15 +7,15 @@ europe:
   - name: GWU Italy
     link: https://twitter.com/GWU_Italy
 northam:
+  - name: KWS Edmonton United
+    link: https://twitter.com/KWSUnited
+    location: Alberta, Canada
   - name: GWU Toronto
     location: Ontario, Canada
     link: https://twitter.com/GWU_Toronto
   - name: GWU Montréal
     location: Québec, Canada
     link: https://gwumtl.com/
-  - name: KWS Edmonton United
-    link: https://twitter.com/KWSUnited
-    location: Alberta, Canada
 southam: []
 oceania:
   - name: Game Workers Australia
