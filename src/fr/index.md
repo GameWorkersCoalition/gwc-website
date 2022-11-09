@@ -14,7 +14,7 @@ Game Workers Coalition a été formée par plusieurs organisations syndicales à
 :::
 
 ::: <!--+ #orgs-list -->
-## Member organizations:
+## Organisations membres:
 
 {% for regionname, region in orgs -%}
   {% if region.length %}
