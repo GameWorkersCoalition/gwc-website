@@ -3,7 +3,7 @@ name: index
 layout: default
 ---
 
-::: <!--+ #description .text-block -->
+::: <!--+ #dessdfcription .text-block -->
 ## Deutsch
 
 The Game Workers Coalition is a communication network for worker-led labour organizations and unions in the games industry.
