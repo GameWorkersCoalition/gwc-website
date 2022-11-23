@@ -13,7 +13,7 @@ site_url: 'https://gameworkerscoalition.org'
 
 i18n:
   structure: multiple_folders
-  locales: [en, de, fr]
+  locales: [en, it, fr]
 
 collections:
   - label: 'Global Data'
@@ -38,11 +38,7 @@ collections:
             summary: '{{fields.name}} | {{fields.location}} {{fields.link}}'
             fields:
               - { name: name, widget: string }
-              - {
-                  name: location,
-                  widget: string,
-                  required: false,
-                }
+              - { name: location, widget: string, required: false }
               - { name: link, widget: string }
           - label: 'North America (northam)'
             name: northam
@@ -50,11 +46,7 @@ collections:
             summary: '{{fields.name}} | {{fields.location}} {{fields.link}}'
             fields:
               - { name: name, widget: string }
-              - {
-                  name: location,
-                  widget: string,
-                  required: false,
-                }
+              - { name: location, widget: string, required: false }
               - { name: link, widget: string }
           - label: 'South America (southam)'
             name: southam
@@ -62,11 +54,7 @@ collections:
             summary: '{{fields.name}} | {{fields.location}} {{fields.link}}'
             fields:
               - { name: name, widget: string }
-              - {
-                  name: location,
-                  widget: string,
-                  required: false,
-                }
+              - { name: location, widget: string, required: false }
               - { name: link, widget: string }
           - label: 'Oceania'
             name: oceania
@@ -74,11 +62,7 @@ collections:
             summary: '{{fields.name}} | {{fields.location}} {{fields.link}}'
             fields:
               - { name: name, widget: string }
-              - {
-                  name: location,
-                  widget: string,
-                  required: false,
-                }
+              - { name: location, widget: string, required: false }
               - { name: link, widget: string }
           - label: 'Asia'
             name: asia
@@ -86,11 +70,7 @@ collections:
             summary: '{{fields.name}} | {{fields.location}} {{fields.link}}'
             fields:
               - { name: name, widget: string }
-              - {
-                  name: location,
-                  widget: string,
-                  required: false,
-                }
+              - { name: location, widget: string, required: false }
               - { name: link, widget: string }
           - label: 'Africa'
             name: africa
@@ -98,13 +78,9 @@ collections:
             summary: '{{fields.name}} | {{fields.location}} {{fields.link}}'
             fields:
               - { name: name, widget: string }
-              - {
-                  name: location,
-                  widget: string,
-                  required: false,
-                }
+              - { name: location, widget: string, required: false }
               - { name: link, widget: string }
-  
+
   - label: 'Language Data'
     name: i18n
     folder: 'src/_i18n'
@@ -137,4 +113,10 @@ collections:
     i18n: true
     fields:
       - { label: 'Page name', name: name, widget: string, i18n: duplicate }
-      - { label: 'Content', name: body, widget: markdown, modes: [raw], i18n: true }
+      - {
+          label: 'Content',
+          name: body,
+          widget: markdown,
+          modes: [raw],
+          i18n: true,
+        }

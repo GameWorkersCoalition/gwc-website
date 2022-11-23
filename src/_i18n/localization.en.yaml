@@ -5,8 +5,8 @@ data:
       organizations in the videogames industry.
   - key: en
     t: English
-  - key: de
-    t: Deutsch
+  - key: it
+    t: Italian
   - key: fr
     t: French
   - key: africa

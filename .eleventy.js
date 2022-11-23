@@ -43,7 +43,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addDataExtension('yaml', (contents) => yaml.load(contents));
 
   // Create translations object
-  const langs = ['en', 'de', 'fr'];
+  const langs = ['en', 'it', 'fr'];
   const translations = {};
   for (const lang of langs) {
     const i18nFile = yaml.load(

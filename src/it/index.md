@@ -4,7 +4,8 @@ layout: default
 ---
 
 ::: <!--+ #description .text-block -->
-## Deutsch
+
+## Italiano
 
 The Game Workers Coalition is a communication network for worker-led labour organizations and unions in the games industry.
 
@@ -14,17 +15,19 @@ The Game Workers Coalition was formed by several international labour organizati
 :::
 
 ::: <!--+ #orgs-list -->
+
 ## Member organizations:
 
 {% for regionname, region in orgs -%}
-  {% if region.length %}
-  - ### {{ regionname | i18n }} <!--+ .region-name -->
-    {% for org in region %}
-    - [{{ org.name }}]({{ org.link }}){% if org.location %} <span>({{ org.location }})</span>{% endif %}
-    {%- endfor %}
+{% if region.length %}
+
+- ### {{ regionname | i18n }} <!--+ .region-name -->
+      {% for org in region %}
+      - [{{ org.name }}]({{ org.link }}){% if org.location %} <span>({{ org.location }})</span>{% endif %}
+      {%- endfor %}
   {%- endif %}
-{%- endfor %}
-:::
+  {%- endfor %}
+  :::
 
 ::: <!--+ #bottom-text .text-block -->
 If you represent an organization that is interested in joining the network, please reach out to any of the orgs in this list to ask about becoming a GWC member. Members of the GWC have to abide by [our statutes](/statutes).

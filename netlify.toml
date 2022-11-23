@@ -4,9 +4,9 @@
 
 [[redirects]]
   from = "/*"
-  to = "/de/:splat"
+  to = "/it/:splat"
   status = 302
-  conditions = {Language = ["de"]}
+  conditions = {Language = ["it"]}
 
 [[redirects]]
   from = "/*"
