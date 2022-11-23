@@ -1,23 +1,24 @@
 title: Localization
 data:
   - key: sitedesc
-    t: The Game Workers Coalition is an international collective of labour
-      organizations in the videogames industry.
+    t: La Game Workers Coalition è una rete di comunicazione dedicata alle
+      organizzazioni del lavoro gestite da lavoratorǝ e ai sindacati
+      dell’industria del videogioco.
   - key: en
-    t: English
+    t: Inglese
   - key: it
-    t: Italian
+    t: Italiano
   - key: fr
-    t: French
+    t: Francese
   - key: africa
     t: Africa
   - key: asia
     t: Asia
   - key: northam
-    t: North America
+    t: Nord America
   - key: southam
-    t: South America
+    t: Sud America
   - key: europe
-    t: Europe
+    t: Europa
   - key: oceania
-    t: Oceania
+    t: Asia-Pacifica
