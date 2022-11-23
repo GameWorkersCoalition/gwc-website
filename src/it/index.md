@@ -4,19 +4,18 @@ layout: default
 ---
 
 ::: <!--+ #description .text-block -->
+## Che cos’è GWC
 
-## Italiano
+La Game Workers Coalition è una rete di comunicazione dedicata alle organizzazioni del lavoro gestite da lavoratorǝ e ai sindacati dell’industria del videogioco.
 
-The Game Workers Coalition is a communication network for worker-led labour organizations and unions in the games industry.
+A partire dal 2017 abbiamo visto un enorme aumento nel numero di iniziative indirizzate all’organizzazione dellǝ lavoratorǝ nell’industria del videogioco. Ci sono statǝ una crescita di interesse, e un maggior supporto, per i processi di sindacalizzazione, astensioni dal lavoro, scioperi, e nuovi sindacati in ogni angolo del mondo e in studi di ogni dimensione. In un contesto in cui l’industria dei videogiochi, storicamente internazionale, opera sempre più su scala globale grazie a fusioni e acquisizioni e alla graduale adozione del lavoro da remoto, lo scopo di GWC è di coordinare le organizzazioni locali che si occupano di lavoro nel mondo videoludico per facilitare la cooperazione nello sforzo comune di migliorare le condizioni dellǝ lavoratorǝ e incrementare il loro potere nel nostro settore.
 
-Since 2017 we have seen an enormous upswell in organizing in the games industry, from a growth of interest in and support for unionization to walkouts, strikes, and the foundation of new unions all around the world, in studios of all sizes. As the games industry increasingly operates an an international scale through mergers and acquisitons of AAA studios and the migration to remote work in response to COVID, the purpose of the GWC is to coordinate between local games labour organizations to facilitate cooperation in our efforts to improve working conditions and build power in our industry.
-
-The Game Workers Coalition was formed by several international labour organizations, as a decentralized network in the spirit of international solidarity. The GWC does not have its own executive capacity, but is rather composed of delegates from each of our member organizations.
+La Game Workers Coalition è stata formata da diverse organizzazioni del lavoro sparse per il mondo, come rete decentralizzata nello spirito della solidarietà internazionale. Se vuoi contattare GWC, ti preghiamo di rivolgerti direttamente alle organizzazioni che ne fanno parte.
 :::
 
 ::: <!--+ #orgs-list -->
 
-## Member organizations:
+## Membri:
 
 {% for regionname, region in orgs -%}
 {% if region.length %}
@@ -30,5 +29,5 @@ The Game Workers Coalition was formed by several international labour organizati
   :::
 
 ::: <!--+ #bottom-text .text-block -->
-If you represent an organization that is interested in joining the network, please reach out to any of the orgs in this list to ask about becoming a GWC member. Members of the GWC have to abide by [our statutes](/statutes).
+Se rappresenti un’organizzazione che è interessata a unirsi alla rete, ti preghiamo di metterti in contatto con una qualsiasi delle organizzazioni in questa lista per avere informazioni su come diventare membro di GWC.
 :::
