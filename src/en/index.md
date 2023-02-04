@@ -27,5 +27,7 @@ The Game Workers Coalition was formed by several labour organizations across the
 :::
 
 ::: <!--+ #bottom-text .text-block -->
-If you represent an organization that is interested in joining the network, please reach out to any of the orgs in this list to ask about becoming a GWC member.
+There are many other games labour organisations worldwide who may not be members of the GWC yet. If you are looking to join an organisation in your local area and have not been able to locate them, one of the organisations listed here may be able to assist.
+
+If you represent an organization that is interested in joining the GWC, please reach out to any of the orgs in this list to ask about becoming a GWC member.
 :::
