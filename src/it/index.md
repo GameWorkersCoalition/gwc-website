@@ -14,19 +14,17 @@ La Game Workers Coalition è stata formata da diverse organizzazioni del lavoro 
 :::
 
 ::: <!--+ #orgs-list -->
-
 ## Membri:
 
 {% for regionname, region in orgs -%}
-{% if region.length %}
-
-- ### {{ regionname | i18n }} <!--+ .region-name -->
-      {% for org in region %}
-      - [{{ org.name }}]({{ org.link }}){% if org.location %} <span>({{ org.location }})</span>{% endif %}
-      {%- endfor %}
+  {% if region.length %}
+  - ### {{ regionname | i18n }} <!--+ .region-name -->
+    {% for org in region %}
+    - [{{ org.name }}]({{ org.link }}){% if org.location %} <span>({{ org.location }})</span>{% endif %}
+    {%- endfor %}
   {%- endif %}
-  {%- endfor %}
-  :::
+{%- endfor %}
+:::
 
 ::: <!--+ #bottom-text .text-block -->
 Se rappresenti un’organizzazione che è interessata a unirsi alla rete, ti preghiamo di metterti in contatto con una qualsiasi delle organizzazioni in questa lista per avere informazioni su come diventare membro di GWC.
