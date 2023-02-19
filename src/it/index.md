@@ -27,5 +27,7 @@ La Game Workers Coalition è stata formata da diverse organizzazioni del lavoro 
 :::
 
 ::: <!--+ #bottom-text .text-block -->
+Ci sono molte altre organizzazioni del lavoro nel settore videoludico che potrebbero non essere ancora parte di GWC. Se hai in mente di unirti a un’organizzazione locale ma non sei riuscitǝ a trovarne una vicina, una delle organizzazioni elencate qui potrebbero essere in grado di aiutarti.
+
 Se rappresenti un’organizzazione che è interessata a unirsi alla rete, ti preghiamo di metterti in contatto con una qualsiasi delle organizzazioni in questa lista per avere informazioni su come diventare membro di GWC.
 :::
