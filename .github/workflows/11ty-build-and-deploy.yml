@@ -1,4 +1,4 @@
-name: Deploy to Pages
+name: Build with Eleventy and deploy to custom URL 
 
 on:
   push:
