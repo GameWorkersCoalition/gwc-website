@@ -9,6 +9,9 @@ europe:
   - name: IWGB Game Workers
     location: United Kingdom
     link: https://www.gameworkers.co.uk/
+  - name: ICT Union
+    link: https://ictunion.cz/
+    location: Česká republika
 northam:
   - name: Fair Play 4 Game Workers
     link: https://twitter.com/FP4GW
