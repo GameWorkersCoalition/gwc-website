@@ -3,15 +3,20 @@ europe:
     location: France
     link: https://www.stjv.fr/
   - name: GWU Deutschland
-    link: https://twitter.com/GWU_Deutschland/
+    link: https://mastodon.gamedev.place/@GWU_Deutschland
+    location: Germany
   - name: GWU Italy
     link: https://twitter.com/GWU_Italy
+    location: ""
   - name: IWGB Game Workers
     location: United Kingdom
     link: https://www.gameworkers.co.uk/
   - name: ICT Union
     link: https://ictunion.cz/
     location: Česká republika
+  - name: CSVI
+    location: Spain
+    link: https://x.com/CSVI_CGT
 northam:
   - name: Fair Play 4 Game Workers
     link: https://twitter.com/FP4GW
