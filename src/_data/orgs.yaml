@@ -27,6 +27,9 @@ northam:
   - name: GWU Montréal
     location: Québec, Canada
     link: https://gwumtl.com/
+  - name: CODE-CWA
+    location: USA & Canada
+    link: https://code-cwa.org/
 southam: []
 oceania:
   - name: Game Workers Australia
