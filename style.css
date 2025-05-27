@@ -91,6 +91,7 @@ a {
   padding: 0.025em 0.3em 0.06em;
   position: relative;
   background-color: var(--link-bg);
+  color: var(--text-col);
 }
 
 a:focus,
