@@ -1,0 +1,188 @@
+/*! modern-normalize v1.1.0 | MIT License | https://github.com/sindresorhus/modern-normalize */
+*,
+:after,
+:before {
+  box-sizing: border-box;
+}
+
+html {
+  line-height: 1.15;
+}
+
+body {
+  margin: 0;
+}
+
+b,
+strong {
+  font-weight: bolder;
+}
+
+h1 {
+  font-size: 2.4rem;
+}
+h2 {
+  font-size: 2rem;
+}
+h3 {
+  font-size: 1.6rem;
+}
+h4 {
+  font-size: 1.4rem;
+}
+h5 {
+  font-size: 1.2rem;
+}
+h6 {
+  font-size: 1.1rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 0.8em;
+  margin-top: 0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding-left: 0;
+}
+
+img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+
+:root {
+  --text-col: #151515;
+  --link-bg: #eee;
+  --link-hover: #e7382d;
+  --footer-text: #eee;
+  --footer-link-hover: #fcbb42;
+  --default-gap: 3rem;
+  --container-width: 700px;
+  --site-bg: #eee;
+  --header-bg: #101010;
+  --container-bg: #fff;
+  --footer-bg: #e7382d;
+}
+
+html {
+  background-color: var(--site-bg);
+}
+
+body {
+  color: var(--text-col);
+  font-family: Work Sans, courier, monospace;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+  bottom: -0.06em;
+  font-weight: 445;
+  padding: 0.025em 0.3em 0.06em;
+  position: relative;
+  background-color: var(--link-bg);
+}
+
+a:focus,
+a:hover {
+  background-color: var(--link-hover);
+  color: var(--container-bg);
+}
+
+.text-block > :last-child {
+  margin-bottom: 0;
+}
+
+#container {
+  display: flex;
+  flex-flow: column nowrap;
+  align-content: stretch;
+  background-color: var(--container-bg);
+  border-radius: var(--default-gap);
+  margin: var(--default-gap) auto;
+  max-width: var(--container-width);
+  min-height: calc(100vh - var(--default-gap) * 2);
+  overflow: hidden;
+  width: 90%;
+}
+
+#content {
+  display: flex;
+  flex-flow: column nowrap;
+  padding: var(--default-gap);
+  flex-grow: 1;
+  gap: 1.2rem;
+}
+
+#header {
+  padding: var(--default-gap);
+  width: 100%;
+  background-color: var(--header-bg);
+  position: relative;
+  text-align: center;
+}
+#header img {
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+}
+
+optgroup,
+select {
+  font-family: inherit;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+  text-transform: none;
+}
+#lang-select {
+  color: var(--footer-text);
+  font-size: 0.9rem;
+  font-weight: 440;
+  background-color: var(--header-bg);
+  border: 1px solid var(--header-bg);
+  bottom: 0;
+  position: absolute;
+  right: 0;
+}
+#lang-select option {
+  font-size: 1rem;
+  font-weight: 460;
+}
+#lang-select:focus,
+#lang-select:hover {
+  border-color: var(--container-link-hover);
+}
+
+#footer {
+  background-color: var(--footer-bg);
+  padding: 1.5rem 2rem;
+}
+
+#orgs-list {
+  font-size: 1.25rem;
+  margin: 0 auto;
+}
+
+.region {
+  margin-bottom: 0.2rem;
+}
+
+.members-list {
+  margin-bottom: 1.4rem;
+}
+
+.member-location {
+  font-size: 0.85em;
+  font-style: italic;
+}

@@ -1,0 +1,28 @@
+@font-face {
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: 200 700;
+  src: url(/assets/WorkSans-Variable.woff2) format("woff2-variations"),
+    url(/assets/WorkSans-Regular.woff2) format("woff2");
+}
+@font-face {
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: 700;
+  src: url(/assets/WorkSans-Variable.woff2) format("woff2-variations"),
+    url(/assets/WorkSans-Bold.woff2) format("woff2");
+}
+@font-face {
+  font-family: Work Sans;
+  font-style: italic;
+  font-weight: 200 700;
+  src: url(/assets/WorkSans-VariableItalic.woff2) format("woff2-variations"),
+    url(/assets/WorkSans-RegularItalic.woff2) format("woff2");
+}
+@font-face {
+  font-family: Work Sans;
+  font-style: italic;
+  font-weight: 700;
+  src: url(/assets/WorkSans-VariableItalic.woff2) format("woff2-variations"),
+    url(/assets/WorkSans-BoldItalic.woff2) format("woff2");
+}
