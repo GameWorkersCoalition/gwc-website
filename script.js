@@ -1,14 +1,16 @@
+const lang = document.documentElement.lang;
+
 // set language when selector changes
-document.getElementById("lang-select").addEventListener("change", (n) => {
-  window.location.href = n.target.value;
+const langSelect = document.getElementById("lang-select");
+langSelect.value = lang;
+langSelect.addEventListener("change", (n) => {
+  window.location.href = `/${n.target.value}`;
 });
 
 // populate member list
 (async () => {
   const res = await fetch("/data.json");
   const data = await res.json();
-
-  const lang = document.documentElement.lang;
 
   const orgsHtml = [];
   for (const [region, members] of Object.entries(data.members)) {
